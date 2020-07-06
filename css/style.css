@@ -1,0 +1,106 @@
+body{
+	font-family:lato;
+	margin: 0px;
+ 	overflow: hidden;
+  background-color: #46B29E;
+}
+
+.headermenu{
+  float: left;
+  width: 100%;
+  background-color: #46B29E;
+  height: 130px;
+}
+
+.sidebar{
+  float: left;
+  width: 10%;
+  height: 536px;
+  left: 10px;
+  overflow-x: hidden;
+  padding: 8px 0;
+  background: #334E5C;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.sidebar a {
+  background: #334E5C;
+  border-bottom: 1px solid #powderblue;
+  color: #ccc;
+  display: block;
+  margin: 0;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.sidebar a:hover {
+  background: #2580a2 url("../img/hover.gif") left center no-repeat;
+  color: #fff;
+  padding-bottom: 8px;
+}
+
+.konten1{
+  float: left;
+  background-color: white;
+  width: 43%;
+  height: 534px;
+  padding: 15px;
+  overflow: auto;
+  border: 7px solid #7522b0;
+  border-radius: 15px;
+}
+
+.konten2{
+  float: left;
+  background-color: white;
+  width: 40.5%;
+  height: 534px;
+  padding: 15px;
+  overflow: auto;
+  border: 7px solid #7522b0;
+  border-radius: 15px;
+  position: relative;
+}
+
+/*untuk next & back*/
+#nav a {
+  position: absolute;
+  left:    -174px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 190px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  border-radius: 0 3px 3px 5px;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+#nav a:hover {
+  left:  0;
+}
+
+#nav a:active{
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+
+#Back {
+  top: 550px;
+  background-color: #f44336;
+}
+
+#Next {  
+  top: 500px;
+  background-color: #4CAF50;
+}
+
+
