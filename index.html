@@ -12,7 +12,7 @@
 	<script src="js/jquery.js"></script>
 </head>
 <body>
-
+	<span class="teks"></span>
 	<div class="header">
 		<div class="top-kiri"><img id="img" src="img/home.png" style="width: 50%;"></div>
         <div class="top-kanan"><img src="menu/storm.png" style="width: 15%;"></div>
@@ -46,5 +46,11 @@
 
 
 <script src="js/menu.js"></script>
+<script>
+      const teks = document.querySelector('.teks');
+      teks.innerHTML=`
+        <h1>Mohon maaf, media hanya bisa di akses di ukuran layar yang lebih dari 1212px (desktop/laptop).</h1>
+      `;
+  </script>
 
 </html>
