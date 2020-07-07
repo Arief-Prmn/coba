@@ -123,3 +123,16 @@ h1{
 p{
   line-height: 1;
 }
+
+@media only screen and (max-width: 1212px) {
+    body {
+        display: none;
+    }
+
+    .teks {
+        display: block;
+        margin: 25% 0 0 20%;
+        width: 550px;
+        font-family: "Poppins", sans-serif;
+    }
+}
